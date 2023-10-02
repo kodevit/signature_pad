@@ -1,12 +1,11 @@
 {
   "name": "signature_pad",
   "description": "Library for drawing smooth signatures.",
-  "version": "4.1.6",
-  "homepage": "https://github.com/szimek/signature_pad",
+  "version": "1.0.0",
+  "homepage": "https://github.com/kodevit/signature_pad",
   "author": {
-    "name": "Szymon Nowak",
-    "email": "szimek@gmail.com",
-    "url": "https://github.com/szimek"
+    "name": "Marco Kotzian",
+    "url": "https://github.com/kodevit/"
   },
   "license": "MIT",
   "source": "src/signature_pad.ts",
@@ -28,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/szimek/signature_pad.git"
+    "url": "https://github.com/kodevit/signature_pad"
   },
   "files": [
     "src",
