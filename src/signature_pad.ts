@@ -41,7 +41,7 @@ export interface PointGroupOptions {
    * *default: 'source-over'*
    * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation
    */
-  compositeOperation: GlobalCompositeOperation;
+  compositeOperation: any;
 }
 
 export interface Options extends Partial<PointGroupOptions> {
@@ -62,7 +62,7 @@ export default class SignaturePad extends SignatureEventTarget {
   public penColor: string;
   public minDistance: number;
   public velocityFilterWeight: number;
-  public compositeOperation: GlobalCompositeOperation;
+  public compositeOperation: any;
   public backgroundColor: string;
   public throttle: number;
 
